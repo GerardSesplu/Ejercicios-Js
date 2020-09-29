@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        'use strict'
+
+        //Prompt - permite que el usuario escriba info
+
+    
+        const birthYear = prompt('Escribe el año en el que naciste');
+        let actualYear = 2020;
+        const yourAge = (actualYear - birthYear);
+        console.log('Tu edad es de', yourAge, 'años');
+
+        const beerDay = prompt('Cuantas cervezas tomas al día');
+        const esperanzaVida = 85;
+        const anyosQueTeQuedan = (esperanzaVida - yourAge);
+        let beerLeft = (beerDay * anyosQueTeQuedan * 365);
+        console.log('Te quedan',beerLeft,'cervezas');
+        
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
